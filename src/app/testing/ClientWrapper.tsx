@@ -8,7 +8,7 @@ export default function ClientWrapper() {
   return (
     <JsesSyntaxHighlighter
       language='javascript'
-      snippet={`console.log("react-syntax-highlighter");`}
+      snippet={`console.log("react-syntax-highlighter use client");`}
     />
   );
 }

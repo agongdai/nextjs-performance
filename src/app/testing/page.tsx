@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ClientWrapper from './ClientWrapper';
+import BrightSyntaxHighlighter from './BrightSyntaxHighlighter';
 
 export default function ReactSyntaxHighlighterPage() {
-  return <ClientWrapper />;
+  return <BrightSyntaxHighlighter lang='js' snippet={`console.log('bright syntax highlighter');`} />;
 }
